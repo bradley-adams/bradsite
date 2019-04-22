@@ -1,0 +1,35 @@
+.homepage {
+  background: url(../images/computer.jpg) no-repeat fixed;
+  background-size: cover;
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+  overflow-x: hidden;
+}
+.header__title {
+  font-size: 50px;
+  text-align: left;
+}
+.header__tiles {
+  text-align: left;
+  padding: 10px;
+}
+.header__tiles--item {
+  font-family: "Oxygen", sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.header__tiles--item:hover {
+  background-color: black;
+  color: white;
+}
+.header__tiles--item:active {
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=app.css.map */

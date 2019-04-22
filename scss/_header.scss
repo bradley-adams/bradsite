@@ -1,0 +1,30 @@
+@import 'variables';
+
+.header {
+    width: 100%;
+    overflow-x: hidden;
+    &__title {
+        font-size: 50px;
+        text-align: left;
+    }
+    &__tiles {
+        text-align: left;
+        padding: 10px;
+
+        &--item {
+            font-family: $oxygen-font;
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            &:hover {
+                background-color: black;
+                color: white;
+            }
+            &:active {
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+}
