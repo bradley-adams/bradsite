@@ -17,3 +17,6 @@ From the `sample-scss-project` directory, run:
 ```bash
 sass --watch scss/:css/
 ```
+To do:
+Parallex footer/reveal
+Icons

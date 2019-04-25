@@ -11,3 +11,33 @@
     display: inline;
     height: 400px;
 }
+
+.title {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: ". . . ." ". first img ." ". last img ." ". . . .";
+
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr;
+    grid-template-areas: "first" "last" "img";
+  }
+}
+
+.first {
+  grid-area: first;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.last {
+  display: grid;
+  justify-items: center;
+  grid-area: last;
+}
+
+.img {
+  grid-area: img;
+}
