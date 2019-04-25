@@ -18,5 +18,8 @@ From the `sample-scss-project` directory, run:
 sass --watch scss/:css/
 ```
 To do:
-Parallex footer/reveal
+Parallax footer/reveal
 Icons
+
+https://grid.layoutit.com/
+https://alligator.io/css/align-justify/
