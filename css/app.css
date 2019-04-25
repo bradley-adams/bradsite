@@ -34,8 +34,19 @@
 
 .title {
   color: white;
-  text-align: center;
-  margin-top: 20%;
+}
+
+.firstname {
+  display: inline;
+}
+
+.lastname {
+  display: inline;
+}
+
+.raccoon {
+  display: inline;
+  height: 400px;
 }
 
 /*# sourceMappingURL=app.css.map */
