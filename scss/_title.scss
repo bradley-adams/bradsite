@@ -1,29 +1,36 @@
 .title {
-    color: white;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: ". . . ." ". first img ." ". last img ." ". . . .";
 }
+.intro {
+
+}
+
 .firstname {
-    display: inline;
+    
 }
 .lastname {
-    display: inline;
+    
 }
 .raccoon {
-    display: inline;
     height: 400px;
 }
 
-.title {
-  display: grid;
-  grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-areas: ". . . ." ". first img ." ". last img ." ". . . .";
+// .title {
+//   display: grid;
+//   grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+//   grid-template-rows: 1fr 1fr 1fr 1fr;
+//   grid-template-areas: ". . . ." ". first img ." ". last img ." ". . . .";
 
-  @media only screen and (max-width: 600px) {
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 0.2fr 0.2fr;
-    grid-template-areas: "first" "last" "img";
-  }
-}
+//   @media only screen and (max-width: 600px) {
+//     grid-template-columns: 1fr;
+//     grid-template-rows: 0.2fr 0.2fr 0.2fr;
+//     grid-template-areas: "first" "last" "img";
+//   }
+// }
 
 .first {
   grid-area: first;
