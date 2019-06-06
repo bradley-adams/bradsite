@@ -23,3 +23,8 @@ Icons
 
 https://grid.layoutit.com/
 https://alligator.io/css/align-justify/
+
+
+Goals
+* Arrow at bottom of title page on click scroll to next content page.
+* Blocks of colour to define sections.
