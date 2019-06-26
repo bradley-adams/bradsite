@@ -24,6 +24,7 @@ Icons
 https://grid.layoutit.com/
 https://alligator.io/css/align-justify/
 
+https://keithclark.co.uk/articles/pure-css-parallax-websites/
 
 Goals
 * Arrow at bottom of title page on click scroll to next content page.
