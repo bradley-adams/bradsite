@@ -1,10 +1,11 @@
 @import 'variables';
 
 .header {
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: .5em;
     width: 100%;
-    overflow-x: hidden;
+    z-index: 999;
     &__title {
         font-size: 50px;
         text-align: left;
@@ -16,17 +17,17 @@
         &--item {
             font-family: $oxygen-font;
             text-decoration: none;
-            color: black;
+            color: white;
             margin: 15px;
             padding: 5px;
             border-radius: 5px;
             &:hover {
-                background-color: black;
-                color: white;
+                background-color: white;
+                color: black;
             }
             &:active {
-                background-color: black;
-                color: white;
+                background-color: white;
+                color: black;
             }
         }
     }
