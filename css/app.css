@@ -69,16 +69,22 @@
   grid-template-areas: ". . . ." ". steve chat ." ". . . .";
 }
 
-.steve {
+.picture {
   grid-area: steve;
+}
+
+.steve {
   height: 200px;
   margin: auto;
+}
+
+.blurb {
+  grid-area: chat;
 }
 
 .chat {
   color: white;
   padding: 10px;
-  grid-area: chat;
   margin: auto;
 }
 
@@ -112,6 +118,7 @@
 }
 
 * {
+  background-color: black;
   margin: 0;
   padding: 0;
 }
