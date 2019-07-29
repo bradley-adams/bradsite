@@ -1,3 +1,46 @@
+* {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2);
+}
+
+.parallax__layer--deep {
+  transform: translateZ(-2px) scale(3);
+}
+
+.parallax__group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+
 .titlepage {
   background-color: black;
 }
@@ -66,65 +109,20 @@
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto auto;
-  grid-template-areas: ". . . ." ". steve chat ." ". . . .";
-}
-
-.picture {
-  grid-area: steve;
+  grid-template-areas: ". . . ." ". picture chat ." ". . . .";
 }
 
 .steve {
+  grid-area: steve;
   height: 200px;
   margin: auto;
 }
 
 .blurb {
   grid-area: chat;
-}
-
-.chat {
   color: white;
   padding: 10px;
   margin: auto;
-}
-
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.parallax__layer--base {
-  transform: translateZ(0);
-}
-
-.parallax__layer--back {
-  transform: translateZ(-1px);
-}
-
-.parallax__group {
-  position: relative;
-  height: 100vh;
-  transform-style: preserve-3d;
-}
-
-* {
-  background-color: black;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  overflow: hidden;
 }
 
 /*# sourceMappingURL=app.css.map */

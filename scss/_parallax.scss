@@ -18,7 +18,11 @@
 }
 
 .parallax__layer--back {
-  transform: translateZ(-1px);
+  transform: translateZ(-1px) scale(2);
+}
+
+.parallax__layer--deep {
+  transform: translateZ(-2px) scale(3);
 }
 
 .parallax__group {
